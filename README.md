@@ -1,6 +1,6 @@
 # Bug Bounty Recon Script
 
-**Bug Bounty Recon Script** is a comprehensive bash script designed to automate domain and subdomain enumeration, scanning, and analysis. This script integrates multiple powerful tools to help you discover subdomains, analyze their attack surface, and gather valuable information about target domains efficiently.
+**Bug Bounty Recon Script** is a comprehensive bash script designed to automate domain and subdomain enumeration, scanning, and analysis. This script integrates multiple powerful tools to help you discover subdomains, analyze their attack surface, and gather valuable information about target domains efficiently. This consists of tools and methodologies used by many popular and skilled Bug Bounty Hunters.
 
 ## Tools Used
 
