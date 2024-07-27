@@ -52,26 +52,24 @@ Refer to the tools' documentation for installation instructions. Most can be ins
    git clone https://github.com/CyB3rGoT07/Bug-Bounty-Recon-Script.git
    cd Bug-Bounty-Recon-Script
 
-    Install Dependencies:
+## Install Dependencies:
 
     Follow the installation instructions provided in the requirements.txt file to set up the necessary tools.
 
-    Prepare Your Input File:
+## Prepare Your Input File:
 
     Create a domains.txt file with one domain per line. This file will be used as input for the script.
 
-    Make the Script Executable:
+## Make the Script Executable:
 
-    bash
-
+```bash
 chmod +x BB-Recon.sh
+```
+## Run the Script:
 
-Run the Script:
-
-bash
-
-    ./BB-Recon.sh
-
+```bash
+./BB-Recon.sh
+```
     The script performs the following tasks:
         Enumerates subdomains using various tools.
         Probes HTTP endpoints and checks their availability.
@@ -83,7 +81,7 @@ bash
 
     After the script completes, review the output directory for results. Each tool's output will be saved in separate files within this directory.
 
-Configuration
+## Configuration
 
 You might need to configure certain aspects based on your environment:
 
@@ -92,7 +90,7 @@ You might need to configure certain aspects based on your environment:
     Subjack: Provide the correct path to the subjack fingerprints file.
 
 Feel free to modify BB-Recon.sh to fit your specific needs or to include additional tools and configurations.
-Contributing
+## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 License
