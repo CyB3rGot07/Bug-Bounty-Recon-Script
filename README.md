@@ -56,10 +56,6 @@ Refer to the tools' documentation for installation instructions. Most can be ins
 
     Follow the installation instructions provided in the requirements.txt file to set up the necessary tools.
 
-## Prepare Your Input File:
-
-    Create a domains.txt file with one domain per line. This file will be used as input for the script.
-
 ## Make the Script Executable:
 
 ```bash
