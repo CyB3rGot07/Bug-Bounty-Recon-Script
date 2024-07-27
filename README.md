@@ -44,31 +44,29 @@ Ensure you have the following tools installed on your system:
 Refer to the tools' documentation for installation instructions. Most can be installed using package managers or from their respective GitHub repositories.
 Installation
 
-    Clone the Repository:
-
+1. Clone the Repository: 
     sh
+    git clone https://github.com/CyB3rGoT07/Bug-Bounty-Recon-Script.git
+    cd Bug-Bounty-Recon-Script
 
-git clone https://github.com/CyB3rGoT07/Bug-Bounty-Recon-Script.git
-cd Bug-Bounty-Recon-Script
 
-Install Dependencies:
+
+
+2. Install Dependencies:
 
 Follow the installation instructions provided in the requirements.txt file to set up the necessary tools.
 
-Prepare Your Input File:
+3. Prepare Your Input File:
 
 Create a domains.txt file with one domain per line. This file will be used as input for the script.
 
-Make the Script Executable:
+4. Make the Script Executable:
+ sh
 
-sh
+    chmod +x BB-Recon.sh
 
-chmod +x BB-Recon.sh
-
-Run the Script:
-
-sh
-
+5. Run the Script:
+ sh
     ./BB-Recon.sh
 
     The script performs the following tasks:
@@ -78,7 +76,7 @@ sh
         Runs vulnerability scans.
         Saves all results to the output directory.
 
-    View Results:
+6. View Results:
 
     After the script completes, review the output directory for results. Each tool's output will be saved in separate files within this directory.
 
