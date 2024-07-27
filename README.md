@@ -1,4 +1,4 @@
-Cyb3rGotH's Bug Bounty Recon Script 
+*Cyb3rGotH's Bug Bounty Recon Script*
 
 BB-Recon is a bash script designed for comprehensive domain and subdomain enumeration, scanning, and analysis. This script integrates multiple tools to discover subdomains, analyze their attack surface, and gather additional information about target domains.This consists of multiple tools adapted from methodologies of many popular and skilled Bug Bounty Hunters. 
 
