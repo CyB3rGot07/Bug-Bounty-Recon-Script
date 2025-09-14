@@ -48,12 +48,81 @@ The script utilizes the following tools:
     ```
 
 3.  **Install Tools**:
-    The `requirements.txt` file contains the installation instructions for all the tools used in this script. Go through the file and install the required tools. Many are Go-based, so ensure your Go environment (`$GOPATH`, `$GOROOT`) is set up correctly.
+    A helper script `install.sh` is provided to install most of the required tools.
+    ```bash
+    chmod +x install.sh
+    ./install.sh
+    ```
+    This script will install all Go-based tools and Python dependencies. However, some tools need to be installed manually. Please see the "Manual Tool Installation" section below.
 
 4.  **Make the Script Executable**:
     ```bash
     chmod +x BB-Recon.sh
     ```
+
+## Manual Tool Installation
+
+Some tools are not installed by the `install.sh` script and require manual installation. These are listed below with their installation instructions. Please ensure you download the correct binary for your system architecture.
+
+### Findomain
+```bash
+# Visit https://github.com/findomain/findomain/releases
+wget https://github.com/findomain/findomain/releases/download/8.2.1/findomain-linux.zip
+unzip findomain-linux.zip
+chmod +x findomain
+sudo mv findomain /usr/local/bin/findomain
+```
+
+### Aquatone
+```bash
+# Visit https://github.com/michenriksen/aquatone/releases
+wget https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip
+unzip aquatone_linux_amd64_1.7.0.zip
+sudo mv aquatone /usr/local/bin/
+```
+
+### Subzy
+```bash
+# Visit https://github.com/lc/subzy/releases
+wget https://github.com/L-C/subzy/releases/download/v1.0.2/subzy_1.0.2_linux_amd64.tar.gz
+tar -xvf subzy_1.0.2_linux_amd64.tar.gz
+sudo mv subzy /usr/local/bin/subzy
+```
+
+### Subjack
+```bash
+# Visit https://github.com/haccer/subjack/releases
+wget https://github.com/haccer/subjack/releases/download/v1.3.1/subjack_1.3.1_linux_amd64.tar.gz
+tar -xvf subjack_1.3.1_linux_amd64.tar.gz
+sudo mv subjack /usr/local/bin/subjack
+```
+
+### SocialHunter (Sublist3r)
+This tool is for finding social media links.
+```bash
+# Visit https://github.com/aboul3la/Sublist3r
+git clone https://github.com/aboul3la/Sublist3r.git
+cd Sublist3r
+pip install -r requirements.txt
+cd ..
+```
+
+### SubJS
+```bash
+# Visit https://github.com/lc/subjs/releases
+wget https://github.com/lc/subjs/releases/download/v1.1.0/subjs_1.1.0_linux_amd64.tar.gz
+tar -xvf subjs_1.1.0_linux_amd64.tar.gz
+sudo mv subjs /usr/local/bin/subjs
+```
+
+### Katana
+```bash
+# Visit https://github.com/projectdiscovery/katana/releases
+wget https://github.com/projectdiscovery/katana/releases/download/v1.0.4/katana-linux-amd64.zip
+unzip katana-linux-amd64.zip
+chmod +x katana
+sudo mv katana /usr/local/bin/katana
+```
 
 ## Usage
 
